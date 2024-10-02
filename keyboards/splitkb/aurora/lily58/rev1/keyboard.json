@@ -86,13 +86,14 @@
     "encoder": {
         "enabled": true,
         "rotary": [
-            {"pin_a": "C6", "pin_b": "D4"}
+            {"pin_a": "C6", "pin_b": "D4", "resolution" : 2}
         ]
     },
     "split": {
         "bootmagic": {
             "matrix": [5, 0]
         },
+        "soft_serial_pin": "D2",
         "matrix_pins": {
             "right": {
                 "rows": ["F4", "D4", "B3", "B2", "B6"],
@@ -102,15 +103,9 @@
         "encoder": {
             "right": {
                 "rotary": [
-                    {"pin_a": "F7", "pin_b": "F6"}
+                    {"pin_a": "F7", "pin_b": "F6", "resolution" : 10}
                 ]
             }
-        },
-        "handedness": {
-            "pin": "F5"
-        },
-        "serial": {
-            "pin": "D2"
         },
         "transport": {
             "sync": {
