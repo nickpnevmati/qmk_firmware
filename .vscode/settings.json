@@ -53,5 +53,6 @@
             "fileMatch": ["keymap.json"],
             "url": "./data/schemas/keymap.jsonschema"
         }
-    ]
+    ],
+    "cmake.sourceDirectory": "/home/nick/qmk_firmware/lib/pico-sdk/test/hardware_pwm_test"
 }
